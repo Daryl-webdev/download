@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 10rem 30rem;
+  background: black;
+}
+
+p {
+  font-size: 7px;
+  font-family: sans-serif;
+  line-height: 8px;
+  text-align: justify;
+  -webkit-background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url("test1.jpg") no-repeat center;
+  /* background-color: black; */
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(189, 22, 22, 0);
+}
